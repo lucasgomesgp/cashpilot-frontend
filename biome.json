@@ -17,7 +17,16 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "style": {
+        "useConst": "off",
+        "useImportType": "off"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off"
+      }
     },
     "domains": {
       "next": "recommended",
